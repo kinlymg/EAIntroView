@@ -225,6 +225,7 @@
 				TargetAttributes = {
 					5537CC811A7C04220096FE20 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 73EMZT56CQ;
 					};
 				};
 			};
@@ -425,6 +426,7 @@
 			baseConfigurationReference = 1F1ED5A7A3498199DA72E07E /* Pods-EAIntroView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 73EMZT56CQ;
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting-files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SampleCorp.$(PRODUCT_NAME:rfc1034identifier)";
@@ -437,6 +439,7 @@
 			baseConfigurationReference = 657D51E8AFF41C7AEF44BE4E /* Pods-EAIntroView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 73EMZT56CQ;
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting-files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SampleCorp.$(PRODUCT_NAME:rfc1034identifier)";

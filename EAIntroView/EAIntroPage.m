@@ -7,6 +7,7 @@
 
 #define DEFAULT_DESCRIPTION_LABEL_SIDE_PADDING 25
 #define DEFAULT_TITLE_FONT [UIFont fontWithName:@"HelveticaNeue-Bold" size:16.0]
+#define DEFAULT_BUTTON_FONT [UIFont fontWithName:@"HelveticaNeue-Bold" size:16.0]
 #define DEFAULT_LABEL_COLOR [UIColor whiteColor]
 #define DEFAULT_BG_COLOR [UIColor clearColor]
 #define DEFAULT_DESCRIPTION_FONT [UIFont fontWithName:@"HelveticaNeue-Light" size:13.0]
@@ -40,6 +41,15 @@
         _bgColor = DEFAULT_BG_COLOR;
         _showTitleView = YES;
         _alpha = 1.f;
+        
+        //kinlymg
+        _buttonPositionY   = DEFAULT_DESCRIPTION_LABEL_Y_POSITION+100;
+        _buttonSideMargin   = DEFAULT_DESCRIPTION_LABEL_SIDE_MARGIN;
+        _buttonTitle = @"";
+        _buttonFont = DEFAULT_BUTTON_FONT;
+        _buttonColor = DEFAULT_LABEL_COLOR;
+        _buttonAlignment = NSTextAlignmentCenter;
+
     }
     return self;
 }

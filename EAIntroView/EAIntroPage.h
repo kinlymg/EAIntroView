@@ -38,6 +38,18 @@ typedef void (^VoidBlock)();
 @property (nonatomic, assign) CGFloat titlePositionY;
 @property (nonatomic, assign) NSTextAlignment titleAlignment;
 
+#pragma mark-kinlymg
+//////////////////////////////////////////
+@property (nonatomic, strong) NSString *buttonTitle;
+@property (nonatomic, strong) UIFont *buttonFont;
+@property (nonatomic, strong) UIColor *buttonColor;
+@property (nonatomic, assign) CGFloat buttonPositionY;
+@property (nonatomic, assign) CGFloat buttonSideMargin;
+@property (nonatomic, assign) NSTextAlignment buttonAlignment;
+
+@property(nonatomic,strong)NSString*buttonUrl;
+//////////////////////////////////////////
+
 @property (nonatomic, strong) NSString *desc;
 @property (nonatomic, strong) UIFont *descFont;
 @property (nonatomic, strong) UIColor *descColor;
